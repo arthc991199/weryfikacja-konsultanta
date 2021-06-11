@@ -1,7 +1,7 @@
 Weryfikacja konsultanta z banku przez klienta podczas rozmowy telefonicznej przychodzącej do klienta.
  
  
-Problem: klient nie ma pewności, że rozmawia z bankiem, nie ma jak zweryfikować rozmówcy
+Problem: klient nie ma pewności, że rozmawia z bankiem, nie ma jak zweryfikować rozmówcy.
 
 Rozwiązanie: konsultant udowadnia, że jest pracownikiem banku, bo może podać klientowi jednorazowy kod, który wcześniej klient dostał do weryfikacji jakiejś operacji i go skutecznie użył.
  
@@ -10,9 +10,8 @@ Istniejące rozwiązania weryfikacji konsultanta dzwoniącego do klienta, przez 
 2.	Wysłanie powiadomienia push przez aplikację mobilną
 3.	kontakt klienta z infolinią banku lub placówką
 
-1 i 2 nie są powszechnie stosowane przez wszystkie banki.
+1 i 2 nie są stosowane przez wszystkie banki.
 3 nie spełniają wymogu weryfikacji gdyż złośliwy aktor może się podszyć pod pracownika banku. Znając imie i nazwisko oraz numer telefonu można uzyć tej tożsamości oraz oszukać odbiorcę poprzez Caller ID spoofing.
-
 
 Warunki mozliwości zastosowania skutecznej procedury: 
 1.	System generowania kodów potwierdzających operacje, przekazuje kody (np. po 3 dniach) do repozytorium kodów autoryzacji dla konsultantów telefonicznych
