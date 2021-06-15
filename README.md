@@ -27,8 +27,9 @@ c.	Nie nowszy niż poprzedni dzień
 Procedura: 
 1.	Konsultant aby się zweryfikować podaje klientowi kod 
 a. Kod na ekran roboczy podczas rozmowy z klientem, wskazał mu system klasy "CRM" (wspomagający zrealizowanie połączenia", otrzymując go ze zbioru skutecznie zastosowanych kodów przez klienta we wcześniejszych operacjach).
-2. Podczas rozowy telefoniecznej konsultant może się zweryfikować mówiąc np. "ostatni kod z 19.03.2021, który zastosował Pan/Pani do operacji bankowej to 090-231"
-3.	Klient znajduje podczas rozmowy kod i weryfikuje jego poprawność
+3. Podczas rozowy telefoniecznej konsultant może się zweryfikować 
+mówiąc np. "ostatni kod z 19.03.2021, który zastosował Pan/Pani do operacji bankowej to 090-231"
+5.	Klient znajduje podczas rozmowy kod i weryfikuje jego poprawność
 a.	Klient wymagający, troskliwy o swoje dane ma możliwość upewnienia się co do tego kto dzwoni
 b.	Klient ignorujący tą informację jest tak samo narażony na wyciek informacji, jak gdyby podał żłośliwemu aktorowi swoje dane weryfikacyjne bez tej procedury
 4.	Dalsza część rozmowy zgodnie z aktualną procedurą
