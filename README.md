@@ -37,4 +37,9 @@ Słabe punkty:
 2.	Klient nie potrafi w trakcie rozmowy znaleźć KODu w zbiorze SMSów
 3.	Oszust wmówi klientowi brak potrzeby takiej weryfikacji
 4.	Klient nie będzie znał takiej możliwości weryfikacji i podczas fraudu nie ma szans to zadziałać
+5.	Działaneim socjotechnicznym można podesłac klientowi wcześniej SMSy i liczyć na to, że klient się nie zorientuje, które są od przestępcy, a które realnie zadziałały na potrzey skutecznej autoryzacji transakcji bankowej
+
+Alternatywne mozliwości:
+1. klient może żadać od konsultanta kwoty przelewu z dnia x.y
+2. Konsultant może podać kwotę, którą autoryzował posiadany przez klienta SMS
 
