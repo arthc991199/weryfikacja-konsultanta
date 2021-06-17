@@ -43,6 +43,9 @@ Alternatywne mozliwości:
 1. klient może żadać od konsultanta kwoty przelewu z dnia x.y
 2. Konsultant może podać kwotę, którą autoryzował posiadany przez klienta SMS
 3. konsultant banku podaje token, ktory to klient może odczytac na swojej aplikacji typu Microsoft Authenticator lub alternatywie stosowanej przez klienta
+4. klient pyta o 4 ostatnie cyfry numeru konta, dla którego była operacja na kwotę xx,yy zł prosty formularz <numer operacji> <data> + blokada enumeracji na operatora
+ 
+
 
 
 Microsoft Authenticator Alternatives
