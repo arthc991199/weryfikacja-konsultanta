@@ -9,8 +9,9 @@ Istniejące rozwiązania weryfikacji konsultanta dzwoniącego do klienta, przez 
 1.	Wysłanie SMSa przez konsultanta
 2.	Wysłanie powiadomienia push przez aplikację mobilną
 3.	kontakt klienta z infolinią banku lub placówką
+4.	Hasło ustalane z bankiem, które konsultant może podać klientowi
 
-1 i 2 nie są stosowane przez wszystkie banki.
+1 i 2 i 4 nie są stosowane przez wszystkie banki.
 3 nie spełniają wymogu weryfikacji gdyż złośliwy aktor może się podszyć pod pracownika banku. Znając imie i nazwisko oraz numer telefonu można uzyć tej tożsamości oraz oszukać odbiorcę poprzez Caller ID spoofing.
 
 Warunki mozliwości zastosowania skutecznej procedury: 
