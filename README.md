@@ -18,7 +18,8 @@ ad 2 jest grupa klientów, którzy nie używają aplikacji bankowych, mają swoj
 
 Warunki możliwości zastosowania skutecznej procedury: 
 
-1
+1 
+
 2
 3
 4
