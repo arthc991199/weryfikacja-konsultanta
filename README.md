@@ -1,11 +1,11 @@
 Weryfikacja konsultanta z banku przez klienta podczas rozmowy telefonicznej przychodzącej do klienta.
  
  
-Problem: klient nie ma pewności, że rozmawia z bankiem, nie ma jak zweryfikować rozmówcy.
+# Problem: klient nie ma pewności, że rozmawia z bankiem, nie ma jak zweryfikować rozmówcy.
 
 Rozwiązanie: konsultant udowadnia, że jest pracownikiem banku, bo może podać klientowi jednorazowy kod, który wcześniej klient dostał do weryfikacji jakiejś operacji i go skutecznie użył.
  
-Istniejące rozwiązania weryfikacji konsultanta dzwoniącego do klienta, przez klienta:
+## Istniejące rozwiązania weryfikacji konsultanta dzwoniącego do klienta, przez klienta:
 1.	Wysłanie SMSa przez konsultanta
 2.	Wysłanie powiadomienia push przez aplikację mobilną
 3.	kontakt klienta z infolinią banku lub placówką
@@ -16,7 +16,7 @@ ad 3 nie spełniają wymogu weryfikacji gdyż złośliwy aktor może się podszy
 
 ad 2 jest grupa klientów, którzy nie używają aplikacji bankowych, mają swoje powody z pogranicza bezpieczeństwa i prywatności, jednocześnie z tych samych powodów są bardziej zainteresowani weryfikacją kto do nich dzwoni.
 
-Warunki możliwości zastosowania skutecznej procedury: 
+## Warunki możliwości zastosowania skutecznej procedury: 
 
 1. System generowania kodów potwierdzających operacje, przekazuje kody (np. po 3 dniach) do repozytorium kodów autoryzacji dla konsultantów telefonicznych - opóźnienie w przekazaniu daje brak ryzyka nadużycia kodu 
 2. klient nie może kasować SMSów
@@ -25,19 +25,7 @@ Warunki możliwości zastosowania skutecznej procedury:
 5. Interesariusz tworzy kampanie informującą klientów o nowej procedurze
 
 
-
-1.System generowania kodów potwierdzających operacje, przekazuje kody (np. po 3 dniach) do repozytorium kodów autoryzacji dla konsultantów telefonicznych
-
-1a. opóźnienie w przekazaniu daje brak ryzyka nadużycia kodu
-
-2. klient nie może kasować SMSów 
-3. System podaje konsultantowi kod łatwy do znalezienia przez klienta w skrzynce odbiorczej SMSów Np. Pierwszy konkretnego dnia, Nie dalszy niż 14 dni do tyłu, Nie nowszy niż poprzedni dzień 
-4. Kod był skuteczny do potwierdzenia operacji bankowej - klient dokładnie ten kod musiał użyć wcześniej do potwierdzenia operacji bankowej 
-5. Interesariusz tworzy kampanie informującą klientów o nowej procedurze
-
-
-
-Procedura: 
+# Procedura: 
 1.	Konsultant aby się zweryfikować podaje klientowi kod 
 2.	Kod na ekran roboczy podczas rozmowy z klientem, wskazał mu system klasy "CRM" (wspomagający zrealizowanie połączenia", otrzymując go ze zbioru skutecznie zastosowanych kodów przez klienta we wcześniejszych operacjach).
 3. Podczas rozowy telefoniecznej konsultant może się zweryfikować mówiąc np. "ostatni kod z 19.03.2021, który zastosował Pan/Pani do operacji bankowej to 090-231"
@@ -47,14 +35,14 @@ Procedura:
 7.	Dalsza część rozmowy zgodnie z aktualną procedurą
  
  
-Słabe punkty:
+## Słabe punkty:
 1.	Lenistwo klienta i na ślepo akceptowanie podanego legitnego kodu
 2.	Klient nie potrafi w trakcie rozmowy znaleźć KODu w zbiorze SMSów
 3.	Oszust wmówi klientowi brak potrzeby takiej weryfikacji
 4.	Klient nie będzie znał takiej możliwości weryfikacji i podczas fraudu nie ma szans to zadziałać
 5.	Działaniem socjotechnicznym można podesłac klientowi wcześniej SMSy i liczyć na to, że klient się nie zorientuje, które są od przestępcy, a które realnie zadziałały na potrzey skutecznej autoryzacji transakcji bankowej
 
-Alternatywne mozliwości:
+# Alternatywne mozliwości:
 1. klient może żadać od konsultanta kwoty przelewu z dnia x.y
 2. Konsultant może podać kwotę, którą autoryzował posiadany przez klienta SMS
 3. konsultant banku podaje token, ktory to klient może odczytac na swojej aplikacji typu Microsoft Authenticator lub alternatywie stosowanej przez klienta
