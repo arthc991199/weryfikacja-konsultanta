@@ -18,13 +18,6 @@ ad 2 jest grupa klientów, którzy nie używają aplikacji bankowych, mają swoj
 
 Warunki możliwości zastosowania skutecznej procedury: 
 
-1 
-
-2
-3
-4
-5
-
 
 1.System generowania kodów potwierdzających operacje, przekazuje kody (np. po 3 dniach) do repozytorium kodów autoryzacji dla konsultantów telefonicznych
 1a. opóźnienie w przekazaniu daje brak ryzyka nadużycia kodu 
