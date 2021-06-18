@@ -17,15 +17,16 @@ ad 3 nie spełniają wymogu weryfikacji gdyż złośliwy aktor może się podszy
 ad 2 jest grupa klientów, którzy nie używają aplikacji bankowych, mają swoje powody z pogranicza bezpieczeństwa i prywatności, jednocześnie z tych samych powodów są bardziej zainteresowani weryfikacją kto do nich dzwoni.
 
 Warunki możliwości zastosowania skutecznej procedury: 
-1.	System generowania kodów potwierdzających operacje, przekazuje kody (np. po 3 dniach) do repozytorium kodów autoryzacji dla konsultantów telefonicznych
 
-a.	opóźnienie w przekazaniu daje brak ryzyka nadużycia kodu
-2.	klient nie może kasować SMSów
-3.	System podaje konsultantowi kod łatwy do znalezienia przez klienta w skrzynce odbiorczej SMSów 
-Np. Pierwszy konkretnego dnia, Nie dalszy niż 14 dni do tyłu, Nie nowszy niż poprzedni dzień
-4.	Kod był skuteczny do potwierdzenia operacji bankowej - klient dokładnie ten kod musiał użyć wcześniej do potwierdzenia operacji bankowej
-5.	Interesariusz tworzy kampanie informującą klientów o nowej procedurze
- 
+1.System generowania kodów potwierdzających operacje, przekazuje kody (np. po 3 dniach) do repozytorium kodów autoryzacji dla konsultantów telefonicznych
+1a. opóźnienie w przekazaniu daje brak ryzyka nadużycia kodu 
+2. klient nie może kasować SMSów 
+3. System podaje konsultantowi kod łatwy do znalezienia przez klienta w skrzynce odbiorczej SMSów Np. Pierwszy konkretnego dnia, Nie dalszy niż 14 dni do tyłu, Nie nowszy niż poprzedni dzień 
+4. Kod był skuteczny do potwierdzenia operacji bankowej - klient dokładnie ten kod musiał użyć wcześniej do potwierdzenia operacji bankowej 
+5. Interesariusz tworzy kampanie informującą klientów o nowej procedurze
+
+
+
 Procedura: 
 1.	Konsultant aby się zweryfikować podaje klientowi kod 
 2.	Kod na ekran roboczy podczas rozmowy z klientem, wskazał mu system klasy "CRM" (wspomagający zrealizowanie połączenia", otrzymując go ze zbioru skutecznie zastosowanych kodów przez klienta we wcześniejszych operacjach).
