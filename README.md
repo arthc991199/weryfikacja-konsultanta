@@ -11,14 +11,16 @@ Istniejące rozwiązania weryfikacji konsultanta dzwoniącego do klienta, przez 
 3.	kontakt klienta z infolinią banku lub placówką
 4.	Hasło ustalane z bankiem, które konsultant może podać klientowi
 
-1 i 2 i 4 nie są stosowane przez wszystkie banki.
-3 nie spełniają wymogu weryfikacji gdyż złośliwy aktor może się podszyć pod pracownika banku. Znając imie i nazwisko oraz numer telefonu można uzyć tej tożsamości oraz oszukać odbiorcę poprzez Caller ID spoofing.
+ad 1 i 2 i 4 nie są stosowane przez wszystkie banki.
+ad 3 nie spełniają wymogu weryfikacji gdyż złośliwy aktor może się podszyć pod pracownika banku. Znając imie i nazwisko oraz numer telefonu można uzyć tej tożsamości oraz oszukać odbiorcę poprzez Caller ID spoofing.
+ad 2 jest grupa klientów, którzy nie używają aplikacji bankowych, mają swoje powody z pogranicza bezpieczeństwa i prywatności, jednocześnie z tych samych powodów są bardziej zainteresowani weryfikacją kto do nich dzwoni.
 
-Warunki mozliwości zastosowania skutecznej procedury: 
+Warunki możliwości zastosowania skutecznej procedury: 
 1.	System generowania kodów potwierdzających operacje, przekazuje kody (np. po 3 dniach) do repozytorium kodów autoryzacji dla konsultantów telefonicznych
 a.	opóźnienie w przekazaniu daje brak ryzyka nadużycia kodu
 2.	klient nie może kasować SMSów
-3.	System podaje konsultantowi kod łatwy do znalezienia przez klienta w skrzynce odbiorczej SMSów Np. Pierwszy konkretnego dnia, Nie dalszy niż 14 dni do tyłu, Nie nowszy niż poprzedni dzień
+3.	System podaje konsultantowi kod łatwy do znalezienia przez klienta w skrzynce odbiorczej SMSów 
+Np. Pierwszy konkretnego dnia, Nie dalszy niż 14 dni do tyłu, Nie nowszy niż poprzedni dzień
 4.	Kod był skuteczny do potwierdzenia operacji bankowej - klient dokładnie ten kod musiał użyć wcześniej do potwierdzenia operacji bankowej
 5.	Interesariusz tworzy kampanie informującą klientów o nowej procedurze
  
@@ -37,13 +39,13 @@ Słabe punkty:
 2.	Klient nie potrafi w trakcie rozmowy znaleźć KODu w zbiorze SMSów
 3.	Oszust wmówi klientowi brak potrzeby takiej weryfikacji
 4.	Klient nie będzie znał takiej możliwości weryfikacji i podczas fraudu nie ma szans to zadziałać
-5.	Działaneim socjotechnicznym można podesłac klientowi wcześniej SMSy i liczyć na to, że klient się nie zorientuje, które są od przestępcy, a które realnie zadziałały na potrzey skutecznej autoryzacji transakcji bankowej
+5.	Działaniem socjotechnicznym można podesłac klientowi wcześniej SMSy i liczyć na to, że klient się nie zorientuje, które są od przestępcy, a które realnie zadziałały na potrzey skutecznej autoryzacji transakcji bankowej
 
 Alternatywne mozliwości:
 1. klient może żadać od konsultanta kwoty przelewu z dnia x.y
 2. Konsultant może podać kwotę, którą autoryzował posiadany przez klienta SMS
 3. konsultant banku podaje token, ktory to klient może odczytac na swojej aplikacji typu Microsoft Authenticator lub alternatywie stosowanej przez klienta
-4. klient pyta o 4 ostatnie cyfry numeru konta, dla którego była operacja na kwotę xx,yy zł prosty formularz <numer operacji> <data> + blokada enumeracji na operatora
+4. klient pyta o 4 ostatnie cyfry numeru konta, dla którego była operacja na kwotę xx,yy zł, prosty formularz <numer operacji> <data> + blokada enumeracji na operatora
  
 
 
