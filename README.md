@@ -18,9 +18,11 @@ ad 2 jest grupa klientów, którzy nie używają aplikacji bankowych, mają swoj
 
 Warunki możliwości zastosowania skutecznej procedury: 
 1.	System generowania kodów potwierdzających operacje, przekazuje kody (np. po 3 dniach) do repozytorium kodów autoryzacji dla konsultantów telefonicznych
+
 a.	opóźnienie w przekazaniu daje brak ryzyka nadużycia kodu
 2.	klient nie może kasować SMSów
 3.	System podaje konsultantowi kod łatwy do znalezienia przez klienta w skrzynce odbiorczej SMSów 
+4.	
 Np. Pierwszy konkretnego dnia, Nie dalszy niż 14 dni do tyłu, Nie nowszy niż poprzedni dzień
 4.	Kod był skuteczny do potwierdzenia operacji bankowej - klient dokładnie ten kod musiał użyć wcześniej do potwierdzenia operacji bankowej
 5.	Interesariusz tworzy kampanie informującą klientów o nowej procedurze
