@@ -2,7 +2,7 @@ Weryfikacja konsultanta z banku przez klienta podczas rozmowy telefonicznej przy
  
  
 # Problem: klient nie ma pewności, że rozmawia z bankiem, nie ma jak zweryfikować rozmówcy.
-### Dotyczy to rozmowy **przychodzącej** do klienta od **banku**
+### Dotyczy to rozmowy _przychodzącej_ do klienta od _banku_
 
 Rozwiązanie: konsultant udowadnia, że jest pracownikiem banku, bo może podać klientowi jednorazowy kod, który wcześniej klient dostał do weryfikacji jakiejś operacji i go skutecznie użył.
  
@@ -29,9 +29,9 @@ ad 2 jest grupa klientów, którzy nie używają aplikacji bankowych, mają swoj
 # Procedura: 
 1.	Konsultant aby się zweryfikować podaje klientowi kod 
 2.	Kod na ekran roboczy podczas rozmowy z klientem, wskazał mu system klasy "CRM" (wspomagający zrealizowanie połączenia", otrzymując go ze zbioru skutecznie zastosowanych kodów przez klienta we wcześniejszych operacjach).
-3. Podczas rozowy telefoniecznej konsultant może się zweryfikować mówiąc np. "ostatni kod z 19.03.2021, który zastosował Pan/Pani do operacji bankowej to 090-231"
+3. Podczas rozowy telefoniecznej konsultant może się zweryfikować mówiąc np. _"ostatni kod z 19.03.2021, który zastosował Pan/Pani do operacji bankowej to 090-231"_
 4. Klient znajduje podczas rozmowy kod i weryfikuje jego poprawność
-5. Klient wymagający, troskliwy o swoje dane ma możliwość upewnienia się co do tego kto dzwoni
+5. Klient wymagający, troskliwy o swoje dane **ma możliwość upewnienia się co do tego kto dzwoni**
 6. Klient ignorujący tą informację jest tak samo narażony na wyciek informacji, jak gdyby podał złośliwemu aktorowi swoje dane weryfikacyjne bez tej procedury
 7.	Dalsza część rozmowy zgodnie z aktualną procedurą
  
