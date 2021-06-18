@@ -13,6 +13,7 @@ Istniejące rozwiązania weryfikacji konsultanta dzwoniącego do klienta, przez 
 
 ad 1 i 2 i 4 nie są stosowane przez wszystkie banki.
 ad 3 nie spełniają wymogu weryfikacji gdyż złośliwy aktor może się podszyć pod pracownika banku. Znając imie i nazwisko oraz numer telefonu można uzyć tej tożsamości oraz oszukać odbiorcę poprzez Caller ID spoofing.
+
 ad 2 jest grupa klientów, którzy nie używają aplikacji bankowych, mają swoje powody z pogranicza bezpieczeństwa i prywatności, jednocześnie z tych samych powodów są bardziej zainteresowani weryfikacją kto do nich dzwoni.
 
 Warunki możliwości zastosowania skutecznej procedury: 
