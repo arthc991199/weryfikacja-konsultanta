@@ -2,6 +2,7 @@ Weryfikacja konsultanta z banku przez klienta podczas rozmowy telefonicznej przy
  
  
 # Problem: klient nie ma pewności, że rozmawia z bankiem, nie ma jak zweryfikować rozmówcy.
+### Dotyczy to rozmowy **przychodzącej** do klienta od **banku**
 
 Rozwiązanie: konsultant udowadnia, że jest pracownikiem banku, bo może podać klientowi jednorazowy kod, który wcześniej klient dostał do weryfikacji jakiejś operacji i go skutecznie użył.
  
